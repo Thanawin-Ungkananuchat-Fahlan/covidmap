@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+  <html lang="en">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Multiple Location Sample | Longdo Map</title>
+      <link href="style.css" type="text/css" rel="stylesheet">
+      <script type="text/javascript" src="http://api.longdo.com/map/?key=4de9e87abda8712266c127cd25e9e48f"></script> <!-- script ที่ลิ้งค์ไปยัง library ของ longdomap -->
+      <script type="text/javascript" src="heatmap.js"></script>
+      <script type="text/javascript" src="longdomap-heatmap.js"></script>
+      <script src="longdomap.markercluster-src.js"></script>
+      <link rel="stylesheet" href="./MarkerCluster.Default.css">
+      <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body onload="init();">
+      <div id="map"></div>
+      <input list="country" id="text" name="text" onchange="findCountry(this.value)" value="">
+      <datalist id="country"> </datalist>
+    </body>
+  </html>

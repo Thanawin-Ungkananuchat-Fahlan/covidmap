@@ -1,0 +1,18 @@
+html{
+    height:100%; 
+}
+body{ 
+    margin:0px;
+    height:100%; 
+}
+#map {
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+#text{
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 20px;;
+}
